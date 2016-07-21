@@ -1,12 +1,13 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
-<!DOCTYPE html >
+<%@page import="java.util.Date"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
-<title>Insert title here</title>
+<meta charset="UTF-8">
+<title>Hello.jsp</title>
 </head>
 <body>
- ÇöÀç½Ã°£ : <%@ new Date() %>
+í˜„ìž¬ì‹œê°„: <%= new Date() %>
 </body>
 </html>
